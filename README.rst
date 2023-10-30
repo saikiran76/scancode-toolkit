@@ -13,17 +13,17 @@ Check out the code at https://github.com/nexB/scancode-toolkit
 Discover also:
 
 - The ScanCode.io server project here: https://scancodeio.readthedocs.io
-- The ScanCode Workbench project for visualization of scancode results data:
+- The ScanCode Workbench project for the visualization of scancode results data:
   https://github.com/nexB/scancode-workbench 
-- Other companion SCA projects for code origin, license and security analysis
+- Other companion SCA projects for code origin, license, and security analysis
   here: https://aboutcode.org
 
 
-Build and tests status
+Build and test status
 ======================
 
 We run 30,000+ tests on each commit on multiple CIs to ensure a good platform
-compabitility with multiple versions of Windows, Linux and macOS.
+compatibility with multiple versions of Windows, Linux, and macOS.
 
 +------------+--------------+-------------------------+----------------------------+
 | **Azure**  | **RTD Build**| **GitHub actions Docs** | **GitHub actions Release** |
@@ -70,7 +70,7 @@ Why use ScanCode?
   companion `ScanCode.io web app <https://github.com/nexB/scancode.io>`_
   to organize and store multiple scan projects including scripted scanning pipelines.
 
-- ScanCode output data can be easily visualized and analysed using the
+- ScanCode output data can be easily visualized and analyzed using the
   `ScanCode Workbench <https://github.com/nexB/scancode-workbench>`_ desktop app.
 
 - ScanCode is **actively maintained**, has a **growing users and contributors
@@ -80,17 +80,17 @@ Why use ScanCode?
 
 - ScanCode has an extensive and growing documentation.
 
-- ScanCode can process packages, build manifest and lockfile formats to collect
+- ScanCode can process packages, build manifest, and lock file formats to collect
   Package URLs and extract metadata: Alpine packages, BUCK files, ABOUT files,
   Android apps, Autotools, Bazel, JavaScript Bower, Java Axis, MS Cab,
-  Rust Cargo, Cocoapods, Chef Chrome apps, PHP Composer and composer.lock,
+  Rust Cargo, Cocoapods, Chef Chrome apps, PHP Composer, and composer.lock,
   Conda, CPAN, Debian, Apple dmg, Java EAR, WAR, JAR, FreeBSD packages,
   Rubygems gemspec, Gemfile and Gemfile.lock, Go modules, Haxe packages,
   InstallShield installers, iOS apps, ISO images, Apache IVY, JBoss Sar,
   R CRAN, Apache Maven, Meteor, Mozilla extensions, MSI installers,
   JavaScript npm packages, package-lock.json, yarn.lock, NSIS Installers,
   NugGet, OPam, Cocoapods, Python PyPI setup.py, setup.cfg, and 
-  several related lockfile formats, semi structured README
+  several related lockfile formats, semi-structured README
   files such as README.android, README.chromium, README.facebook, README.google,
   README.thirdparty, RPMs, Shell Archives, Squashfs images, Java WAR, Windows
   executables and the Windows registry
@@ -107,7 +107,7 @@ Documentation
 The ScanCode documentation is hosted at
 `scancode-toolkit.readthedocs.io <https://scancode-toolkit.readthedocs.io/en/latest/>`_.
 
-If you are new to visualization of scancode results data, start with our
+If you are new to the visualization of scancode results data, start with our
 `newcomer <https://scancode-toolkit.readthedocs.io/en/latest/getting-started/newcomer.html>`_ page.
 
 If you want to compare output changes between different versions of ScanCode, 
